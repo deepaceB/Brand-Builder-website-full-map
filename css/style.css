@@ -103,7 +103,7 @@ p{margin:0;}
  */
 
 /* Nav */
-.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.88);backdrop-filter:saturate(150%) blur(12px);border-bottom:1px solid var(--stroke);}
+.nav{position:sticky;top:0;z-index:50;position:sticky;background:rgba(255,255,255,.88);backdrop-filter:saturate(150%) blur(12px);border-bottom:1px solid var(--stroke);}
 .nav__inner{display:flex;align-items:center;gap:1.5rem;padding-block:.75rem;position:relative;}
 .brand{display:inline-flex;align-items:center;gap:.6rem;font-family:Poppins,sans-serif;font-weight:600;font-size:1.0625rem;color:var(--navy);letter-spacing:-.01em;}
 .brand svg{flex:0 0 auto;}
@@ -115,11 +115,12 @@ p{margin:0;}
 .nav__links a:hover::after,.nav__links a[aria-current="page"]::after{right:0;}
 .nav__cta{margin-left:.25rem;}
 .nav__cta .btn{padding:.6rem 1.15rem;min-height:42px;}
-.nav__toggle{display:none;background:none;border:1px solid var(--stroke);border-radius:10px;padding:.45rem;color:var(--navy);cursor:pointer;margin-left:auto;}
-.nav__panel{display:none;flex-direction:column;gap:.2rem;padding:.75rem 1rem 1rem;border-top:1px solid var(--stroke);background:#fff;}
-.nav__panel a{padding:.7rem .65rem;border-radius:10px;font-weight:600;color:var(--navy);}
+.nav__toggle{display:none;background:none;border:1.5px solid var(--stroke);border-radius:10px;padding:.5rem;color:var(--navy);cursor:pointer;margin-left:auto;min-width:44px;min-height:44px;align-items:center;justify-content:center;}
+.nav__toggle:hover{border-color:var(--navy);background:var(--surface);}
+.nav__panel{display:none;flex-direction:column;gap:.25rem;padding:1rem 1rem 1.25rem;border-top:1px solid var(--stroke);background:#fff;position:absolute;top:100%;left:0;right:0;z-index:100;box-shadow:0 12px 32px -8px rgba(39,64,116,.18);}
+.nav__panel a{padding:.8rem .75rem;border-radius:10px;font-weight:600;font-size:1rem;color:var(--navy);display:block;}
 .nav__panel a:hover,.nav__panel a[aria-current="page"]{background:var(--surface);}
-.nav__panel .btn{margin-top:.5rem;}
+.nav__panel .btn{margin-top:.75rem;width:100%;justify-content:center;}
 .nav.open .nav__panel{display:flex;}
 
 /* Page header (sub-pages) */
