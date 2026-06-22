@@ -1,0 +1,33 @@
+/*
+ * Brand Builder — Responsive
+ * Mobile & tablet breakpoints
+ */
+
+/* Responsive */
+@media (max-width:980px){
+  .hero__grid{grid-template-columns:1fr;}
+  .hero__copy{max-width:none;}
+  .conv{max-width:30rem;}
+  .grid--4,.grid--3,.posts,.work-grid{grid-template-columns:repeat(2,1fr);}
+  .team-grid{grid-template-columns:repeat(3,1fr);}
+  .stats{grid-template-columns:repeat(2,1fr);gap:1rem;}
+  .logos{grid-template-columns:repeat(3,1fr);}
+  .contact__grid{grid-template-columns:1fr;}
+  .footer__top{grid-template-columns:1fr 1fr;}
+  .footer__brand{grid-column:1 / -1;}
+}
+@media (max-width:760px){
+  .nav__links,.nav__cta{display:none;}
+  .nav__toggle{display:inline-flex;}
+}
+@media (max-width:620px){
+  .grid--4,.grid--3,.posts,.work-grid{grid-template-columns:1fr;}
+  .team-grid{grid-template-columns:1fr 1fr;}
+  .stats{grid-template-columns:1fr 1fr;}
+  .logos{grid-template-columns:repeat(2,1fr);}
+  .footer__top{grid-template-columns:1fr;}
+  .hero__cta .btn{flex:1 1 auto;}
+}
+@media (max-width:440px){
+  .team-grid{grid-template-columns:1fr;}
+}
