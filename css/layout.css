@@ -99,6 +99,10 @@
 .card--dark p{color:var(--on-dark-mute);}
 .card--dark .prod__link{color:#fff;}
 .card--dark:hover{box-shadow:var(--shadow-float);}
+/* Filled navy CTA tile that sits inside a product grid */
+.card--cta{align-items:center;justify-content:center;text-align:center;}
+.card--cta h3{color:#fff;font-weight:700;margin-bottom:.6rem;}
+.card--cta p{flex:0 0 auto;margin-bottom:1.35rem;}
 
 /* Stats band — metric cards */
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:2.8rem;}
