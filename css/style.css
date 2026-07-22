@@ -248,7 +248,7 @@ p{margin:0;}
 .post__tags{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.9rem;}
 .post__tag{font-family:Inter,sans-serif;font-weight:600;font-size:.6875rem;letter-spacing:.06em;text-transform:uppercase;color:var(--orange-deep);background:var(--orange-pale);padding:.3rem .6rem;border-radius:var(--r-pill);}
 /* Reserve 2 lines for the title so excerpts share a baseline across the row */
-.post h3{font-size:1.1875rem;line-height:1.28;margin-bottom:.6rem;min-height:2.56em;}
+.post h3{font-size:1.1875rem;line-height:1.45;margin-bottom:.6rem;min-height:2.9em;}
 .post h3 a:hover{color:var(--orange-deep);}
 .post__excerpt{font-size:.9375rem;color:var(--body);flex:1;}
 .post__meta{font-size:.8125rem;color:var(--mute);margin-top:1rem;}
