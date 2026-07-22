@@ -38,8 +38,7 @@
   background:radial-gradient(circle,rgba(255,102,0,.14),transparent 62%);pointer-events:none;}
 .hero__grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2rem,4vw,4rem);align-items:center;position:relative;}
 .hero__copy{max-width:34rem;}
-.hero h1 .mark{white-space:nowrap;color:var(--navy);padding:0 .05em;border-radius:5px;
-  background:linear-gradient(to top, rgba(255,102,0,.30) 0, rgba(255,102,0,.30) 36%, transparent 36%);}
+.hero h1 .mark{white-space:nowrap;color:var(--orange);}
 .hero h1 .arr-big{color:var(--orange-deep);font-weight:700;padding-inline:.1em;}
 .hero .lead{margin-top:1.4rem;}
 .hero__cta{display:flex;flex-wrap:wrap;gap:.85rem;margin-top:2rem;}
