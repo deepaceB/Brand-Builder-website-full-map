@@ -21,6 +21,7 @@
   .nav__toggle{display:inline-flex;}
 }
 @media (max-width:620px){
+  #services .card h3{min-height:0;}
   .grid--4,.grid--3,.posts,.work-grid{grid-template-columns:1fr;}
   .team-grid{grid-template-columns:1fr 1fr;}
   .stats{grid-template-columns:1fr 1fr;}
