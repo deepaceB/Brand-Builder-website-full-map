@@ -93,6 +93,8 @@ p{margin:0;}
 .btn--ghost:hover{border-color:var(--navy);background:#fff;}
 .btn--light{background:#fff;color:var(--navy);}
 .btn--light:hover{background:var(--surface);}
+.btn--accent{background:var(--orange);color:#fff;box-shadow:0 10px 24px -14px rgba(255,102,0,.85);}
+.btn--accent:hover{background:#e65c00;box-shadow:0 16px 30px -16px rgba(255,102,0,.95);}
 .btn .arr{transition:transform .18s ease;}
 .btn:hover .arr{transform:translateX(3px);}
 
@@ -199,6 +201,10 @@ p{margin:0;}
 .card--dark p{color:var(--on-dark-mute);}
 .card--dark .prod__link{color:#fff;}
 .card--dark:hover{box-shadow:var(--shadow-float);}
+/* Filled navy CTA tile that sits inside a product grid */
+.card--cta{align-items:center;justify-content:center;text-align:center;}
+.card--cta h3{color:#fff;font-weight:700;margin-bottom:.6rem;}
+.card--cta p{flex:0 0 auto;margin-bottom:1.35rem;}
 
 /* Stats band — metric cards */
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:2.8rem;}
